@@ -29,6 +29,7 @@ button{
       | Header
       |============================
     */
+    
 .header {
     background-color: var(--white);
 }
@@ -50,9 +51,6 @@ color: var(--navy-blue);
 
 .header-logo-color {
     color: var(--iris);
-}
-.header-list {
-
 }
 
 .header-link {
@@ -78,9 +76,6 @@ color: var(--ocean);
     font-family: var(--main-font);
     color: var(--navy-blue);
     font-style: normal;
-
-}
-.address-list {
 
 }
 .address-header-link {
@@ -112,9 +107,10 @@ color: var(--ocean);
 .hero-title {
 font-weight: 700;
 font-size: 56px;
-line-height: 60px;
+line-height: 1.07;
 letter-spacing: 0.02em;
 color: var(--white);
+text-align: center;
 }
 .button-hero {
 background-color: var(--iris);
@@ -144,15 +140,17 @@ color: var(--white);
 .section-title {
         font-weight: 700;
         font-size: 36px;
-        line-height: 40px;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         color: var(--navy-blue);
+        text-transform: capitalize;
+        text-align: center;
 }
 
 .main-title {
         font-weight: 500;
         font-size: 20px;
-        line-height: 24px;
+        line-height: 1.2;
         letter-spacing: 0.02em;
         color: var(--navy-blue);
 }
@@ -193,10 +191,9 @@ color: var(--white);
         */
 }
 .logo {
-    font-family: RALEWAY, sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 21px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -215,7 +212,9 @@ color: var(--white);
   |============================
 */
 
-.button-filter { 
+.button-filter {
+     font-family: var(--main-font);
+     font-weight: 500;
     background-color: var(--cloud);
         font-size: 16px;
         line-height: 24px;
@@ -225,10 +224,13 @@ color: var(--white);
 
 .button-filter:hover,
 .button-filter:focus{
+    font-family: var(--main-font);
+    font-weight: 500;
     background-color: var(--ocean);
-        font-size: 16px;
-        line-height: 24px;
-        letter-spacing: 0.04em;
-        color: var(--white);
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: var(--white);
     }
 
+    
